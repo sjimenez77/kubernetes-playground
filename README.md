@@ -2,6 +2,11 @@
 
 This repository is just for playing purposes with a local Kubernetes cluster enabled in Docker Desktop for Mac and to follow the really nice [Full Kubernetes Tutorial](https://www.youtube.com/watch?v=x48vudvv0do) from the highly recommended [TechWorld with Nana Youtube channel](https://www.youtube.com/channel/UCdngmbVKX1Tgre699-XLlUA).
 
+For more info about the docker images used please check the following references from the docker hub:
+
+- https://hub.docker.com/_/mongo
+- https://hub.docker.com/_/mongo-express
+
 ## Steps
 
 1. Install Docker Desktop.
