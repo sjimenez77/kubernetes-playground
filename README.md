@@ -13,7 +13,7 @@ For more info about the docker images used in this repository, please check the 
 2. Enable Kubernetes.
 3. Install and try to open Kubernetes Dashboard following this [guide](https://www.replex.io/blog/how-to-install-access-and-add-heapster-metrics-to-the-kubernetes-dashboard).
 4. Run in the terminal the following commands:
-   1. `kubectl apply -f mongo-secret.yaml`
+   1. `kubectl apply -f mongo-secret.yaml`. In order to add the base64 encoded values I used the command `echo -n 'text_to_encode' | base64`.
    2. `kubectl apply -f mongo.yaml`
    3. `kubectl apply -f mongo-configmap.yaml`
    4. `kubectl apply -f mongo-express.yaml`
